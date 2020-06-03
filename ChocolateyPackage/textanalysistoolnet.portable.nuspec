@@ -4,7 +4,7 @@
   <metadata>
     <id>textanalysistoolnet.portable</id>
     <version>2018.11.20</version>
-    <owners>bcurran3</owners>
+    <owners>DavidAnson;BhavikVora</owners>
     <packageSourceUrl>https://github.com/TextAnalysisTool/Releases/tree/master/ChocolateyPackage</packageSourceUrl>
     <title>TextAnalysisTool.NET (Portable)</title>
     <authors>David Anson</authors>
@@ -14,7 +14,7 @@
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://textanalysistool.github.io/TextAnalysisTool.NET.txt</docsUrl>
-	<bugTrackerUrl>https://github.com/TextAnalysisTool/Releases/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/TextAnalysisTool/Releases/issues</bugTrackerUrl>
     <tags>text analysis tool .net</tags>
     <summary>TextAnalysisTool.NET is a free program designed to excel at viewing, searching, and navigating large files quickly and efficiently. TextAnalysisTool.NET provides a view of the data that you can easily manipulate (through the use of various filters) to display exactly the information you need - as you need it!</summary>
     <description>
@@ -28,7 +28,7 @@ Aleksey Kabanov
 Jenny Leung
 
 ## Summary
-TextAnalysisTool.NET is a free program designed to excel at viewing, searching, and navigating large files quickly and efficiently. TextAnalysisTool.NET provides a view of the data that you can easily manipulate (through the use of various filters) to display exactly the information you need - as you need it!
+[TextAnalysisTool.NET](https://textanalysistool.github.io) is a free program designed to excel at viewing, searching, and navigating large files quickly and efficiently. TextAnalysisTool.NET provides a view of the data that you can easily manipulate (through the use of various filters) to display exactly the information you need - as you need it!
 
 ![Showing all lines with filters](https://textanalysistool.github.io/TextAnalysisTool-ScreenShot-0.png)
 ![Showing only filtered lines](https://textanalysistool.github.io/TextAnalysisTool-ScreenShot-1.png)
@@ -74,7 +74,7 @@ TextAnalysisTool.NET was written with speed and ease of use in mind throughout. 
 ## Feedback
 
 *  [Issue tracker](https://github.com/TextAnalysisTool/Releases/issues)
-	</description>
+  </description>
     <releaseNotes>https://textanalysistool.github.io</releaseNotes>
   </metadata>
   <files>
