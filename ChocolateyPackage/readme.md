@@ -3,6 +3,7 @@
 Folder contains the nuspec to generate the [chocolatey](https://chocolatey.org/) package for TextAnalysisTool
 
 ## What does Chocolatey Package do?
+
 This will expand the zip file and create desktop shortcuts.
 
 ## Commands to test the package in local
