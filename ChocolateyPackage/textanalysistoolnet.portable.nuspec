@@ -3,11 +3,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>textanalysistoolnet.portable</id>
-    <version>2018.11.20</version>
+    <version>2018.11.20.0</version>
     <owners>DavidAnson;BhavikVora</owners>
     <packageSourceUrl>https://github.com/TextAnalysisTool/Releases/tree/master/ChocolateyPackage</packageSourceUrl>
     <title>TextAnalysisTool.NET (Portable)</title>
-    <authors>David Anson</authors>
+    <authors>David Anson; Mike Morante; Uriel Cohen; Vince Curley, Aleksey Kabanov, Jenny Leung</authors>
     <projectUrl>https://github.com/TextAnalysisTool/Releases</projectUrl>
     <iconUrl>https://github.com/TextAnalysisTool/TextAnalysisTool.github.io/blob/master/TextAnalysisTool.png</iconUrl>
     <copyright>© David Anson</copyright>
@@ -35,15 +35,6 @@ Jenny Leung
 ![Add Filter dialog](https://textanalysistool.github.io/TextAnalysisTool-ScreenShot-2.png)
 ![Find dialog](https://textanalysistool.github.io/TextAnalysisTool-ScreenShot-3.png)
 
-### Includes:
-
-*  Version `2018-11-20` for .NET 4+ (32- and 64-bit)
-*  Version `2013-05-07` for .NET 2+ (32- and 64-bit)
-*  Version `2006-12-04` for .NET 1.1+ (32-bit only)
-*  Version `2001-12-28` for x86 (32-bit only)
-
-### License: [MIT](https://opensource.org/licenses/MIT)
-
 ## Overview
 
 ### The Problem
@@ -63,17 +54,6 @@ TextAnalysisTool.NET also provides a flexible "find" function that allows you to
 
 ### Summary
 TextAnalysisTool.NET was written with speed and ease of use in mind throughout. It saves you time by allowing you to save and load filter sets; it lets you import text by opening a file, dragging-and-dropping a file or text from another application, or by pasting text from the clipboard; and it allows you to share the results of your filters by copying lines to the clipboard or by saving the current lines to a file. TextAnalysisTool.NET supports files encoded with ANSI, UTF-8, Unicode, and big-endian Unicode and is designed to handle large files efficiently.
-
-## Resources
-
-*  [ReadMe.txt](ReadMe.txt)
-*  [Documentation](TextAnalysisTool.NET.txt)
-*  [Introductory blog post](//dlaa.me/blog/post/3450647)
-*  [Related blog content](//dlaa.me/blog/tag/TextAnalysisTool)
-
-## Feedback
-
-*  [Issue tracker](https://github.com/TextAnalysisTool/Releases/issues)
   </description>
     <releaseNotes>https://textanalysistool.github.io</releaseNotes>
   </metadata>

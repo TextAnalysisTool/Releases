@@ -13,15 +13,25 @@ Ps. Requires one-time [installation of Chocolatey Package manager](https://choco
 Run the following commands in an Admin `PowerShell` window to generate the package and test installation/uninstallation using chocolatey:
 
 ```powershell
-#ensure you are running this from the ChocolateyPackage folder
+# Ensure you are running this from the ChocolateyPackage folder
 cd ChocolateyPackage
 
-# to generate the nuget package
+# Generate the nuget package
 choco pack
 
-# to test choco package from local machine
+# Verify installation of local choco package in local machine
 cinst textanalysistoolnet.portable -source .
 
-# to test uninstall
+# Verify uninstall of local package
 cuninst textanalysistoolnet.portable
+
+# To publish to Chocolatey, first get the API Key from https://chocolatey.org/account and set it in local
+choco apikey --key <key> --source https://push.chocolatey.org/
+
+# Now publish to Chocolatey! Don't forget to update the version number!
+choco push textanalysistoolnet.portable.2018.11.20.0.nupkg --source https://push.chocolatey.org/
 ```
+
+## Troubleshooting package upload errors
+
+If you see any package upload errors, check the logs at C:\ProgramData\chocolatey\logs
