@@ -1,14 +1,27 @@
 # Chocolatey Package for TextAnalysisTool
 
-Folder contains the nuspec to generate the [chocolatey](https://chocolatey.org/) package for TextAnalysisTool
+Folder contains the nuspec to generate the [chocolatey](https://chocolatey.org/) package for TextAnalysisTool.
 
 ## What does Chocolatey Package do?
 
 This will expand the zip file and create desktop shortcuts.
 
-## Commands to test the package in local
+## Chocolatey Published Page
 
-Ps. Requires one-time [installation of Chocolatey Package manager](https://chocolatey.org/install) on local machine
+This tool is published at https://chocolatey.org/packages/textanalysistoolnet.portable
+
+## Chocolatey command to install the package on any machine
+
+Ps. Requires one-time [installation of Chocolatey Package manager](https://chocolatey.org/install) on local machine.
+
+Run the following commands in an Admin `PowerShell` window to install the TextAnalysisTool.
+```
+choco install textanalysistoolnet.portable
+```
+
+## Chocolatey command to locally test the package (for developer use only)
+
+Ps. Requires one-time [installation of Chocolatey Package manager](https://chocolatey.org/install) on local machine.
 
 Run the following commands in an Admin `PowerShell` window to generate the package and test installation/uninstallation using chocolatey:
 
@@ -34,4 +47,4 @@ choco push textanalysistoolnet.portable.2018.11.20.0.nupkg --source https://push
 
 ## Troubleshooting package upload errors
 
-If you see any package upload errors, check the logs at C:\ProgramData\chocolatey\logs
+If you see any package upload errors, check the logs at `C:\ProgramData\chocolatey\logs`
